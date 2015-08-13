@@ -1,0 +1,2 @@
+# sha256: a9E3MQIWGB7qgbs3ycA2nODEpi2rHarwv1NIN6rKlls
+coverage==4.0b1

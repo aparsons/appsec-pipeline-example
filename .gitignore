@@ -49,9 +49,18 @@ coverage.xml
 
 # Django stuff:
 *.log
+*.sqlite3
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
+
+# IDE
+.idea
+
+# Project
+src/sample_data.json
+src/pipeline/migrations/*.py
+!src/pipeline/migrations/__init__.py

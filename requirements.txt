@@ -1,0 +1,5 @@
+# sha256: BH0PTJMmKzOAEEmi3N2u8Jwp50HAOpR6NVbqR0ju0uI
+Django==1.8.3
+
+# sha256: Y5XGSKIA-4nobnhKrYYNPy3YpYbIeqp58VymVd4DYcc
+djangorestframework==3.2.2

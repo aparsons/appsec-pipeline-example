@@ -1,0 +1,22 @@
+{% extends "rest_framework/base.html" %}
+
+{% block title %}AppSec Pipeline Example{% endblock %}
+
+{% block bootstrap_theme %}
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css" type="text/css">
+{% endblock %}
+
+{% block branding %}
+  <a class="navbar-brand" href="{% url 'pipeline:api-root' %}">AppSec Pipeline Example</a>
+{% endblock %}
+
+{% block userlinks %}
+  {% if user.is_staff %}
+    <li><a href="{% url 'admin:index' %}" target="_blank">Django Admin</a></li>
+  {% endif %}
+  {{ block.super }}
+{% endblock %}
+
+{% block description %}
+  {{ description }}
+{% endblock %}
